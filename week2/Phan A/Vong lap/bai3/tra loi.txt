@@ -1,0 +1,2 @@
+Trong cả hai bài các giá trị n được đưa vào phải thỏa mãn điều kiện đã cho ban đầu, ví dụ
+như n vào là số âm hoặc 0 thì chương trình sẽ ko đưa ra kết quả mong muốn.
