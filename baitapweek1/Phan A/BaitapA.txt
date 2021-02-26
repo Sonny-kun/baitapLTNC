@@ -1,0 +1,31 @@
+1. 
+- Nếu grade là một biến biểu thị int, sau lệnh, nếu grade thỏa mãn grade <=100 và grade>=90 thì thực hiện một câu lệnh, nếu không thì sẽ thực hiện một câu lệnh khác. 
+- Sửa: bool isA = (grade >=90 && grade <= 100);
+2.
+Đoạn chương trình sẽ không đưa ra kết quả nào.
+3.
+Chưa sử dụng lệnh cin để nhập x vào.
+4.
+Biểu thức có giá trị luôn đúng.
+5.
+Chương trình sẽ bị lỗi underfined.
+6.
+- double x, cout x thì ra 1 giá trị .
+- nếu chuyển dòng khai báo ra ngoài hàm main thì kết quả =0.
+7.
+- 0, 0.75, 0.75, 0.75
+
+8.
+Lỗi [Warning] multi-character character constant [-Wmultichar]
+9.
+- Ko lỗi
+- Chỉ tới biến có kiểu dữ liệu char
+10. 
+- Ko lỗi
+- Chỉ tới biến có kiểu dữ liệu int
+
+11.
+Chưa khai báo biến F
+12.
+In ra “Here”
+
