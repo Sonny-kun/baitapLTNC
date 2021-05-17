@@ -2,14 +2,14 @@
 using namespace std;
 int main()
 {
-	int* p = new int;
-	int* p2 = p;
-	*p = 10;
-	delete p; //Error
-	cout << *p2;
-	delete p2;
-
+	char a[4] = "abc";
+	for (char* cp = a; (*cp) != '\0'; cp += 1) {
+		cout << (void*)cp << " : " << (*cp) << endl;
+	}
 	return 0;
 }
 
-//Con tro p2 tro vao p (cung cho voi p) nen xoa gia tri p thi p2 se tro ve vi tri khac (khong phai NULL)
+// a. các địa chỉ của biến a cách nhau 1 giá trị.
+// b. kiểu int có giá trị bằng 4
+// c. kiểu double có giá trị bằng 8
+// d. khoảng cách giữa địa chỉ các con trỏ tăng lên 1 đơn vị.

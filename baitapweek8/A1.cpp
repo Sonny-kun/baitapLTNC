@@ -17,3 +17,5 @@ int main()
 	g(11);
 	return 0;
 }
+
+//Hai biến đều có cùng địa chỉ, có thể là do thông số truyền vào đều được gọi từ main

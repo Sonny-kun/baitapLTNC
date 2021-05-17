@@ -1,17 +1,20 @@
 #include <iostream>
 using namespace std;
+void swap_pointers(char* *x, char* *y)
+{
+ char *tmp;
+ tmp = *x;
+ *x = *y;
+ *y = tmp;
+}
 int main()
 {
-	char* a = new char[10];
-	char* c = a + 3;
-	for (int i = 0; i < 9; i++) a[i] = 'a';
-	a[9] = '\0';
-	cerr <<"a: " << "-" << a << "-" << endl;
-	cerr <<"c: " << "-" << c << "-" << endl;
-	delete c;
-	cerr << "a after deleting c:" << "-" << a << "-" << endl;	//Error
-	return 0;
+ char a[] = "I should print second";
+ char b[] = "I should print first";
+ char *s1 = a;
+ char *s2 = b;
+ swap_pointers(&s1,&s2);
+ cout << "s1 is " << s1 << endl;
+ cout << "s2 is " << s2 << endl;
+ return 0;
 }
-
-//Con tro c co cung vi tri voi a va kich thuoc lon hon a nen khi giai phong c da cung luc giai phong bo nho cua a
-
